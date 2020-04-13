@@ -1,6 +1,7 @@
 /**- **Exercícios**
     - Exercícios de Funções de array
         1. Cite 3 maneiras de se percorrer/iterar um array, que você conheceu antes das funções de array. Faça um programa para exemplificar.
+        
         2. Considere um array com o seguinte formato:
 
                 [
