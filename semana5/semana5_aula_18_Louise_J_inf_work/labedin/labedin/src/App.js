@@ -10,7 +10,7 @@ function App() {
         div className = "page-section-container" >
         <
         h2 > Dados pessoais < /h2> <
-        CardGrande imagem = "https://uploads-ssl.webflow.com/5d640f4558306be99cf47a0e/5dd57846babb597b77c6bb1d_PerfilFuture4_cor.png"
+        CardGrande imagem = "/imagem/louisej.jpg"
         nome = "LouiseJ"
         descricao = "Oi, eu sou a Louise J. Eu sou uma desenvolvedora junior na Labenu.
         Adoro aprender sobre desenvolvimento de sites e tecnologias, meu sonho e meta é fazer diferença no mercado ajudando outras pessoas que se interessam pela área mas não sabem como começar assim como já aconteceu comigo.
