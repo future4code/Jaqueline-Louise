@@ -1,0 +1,60 @@
+{
+	"info": {
+		"_postman_id": "7599b1c0-d00a-407d-8e81-4363cb032d10",
+		"name": "LouiseJplaylist",
+		"description": "### Exercício da semana7 aula1\n\n-  Comece criando três playlists, com os gêneros de músicas de que você mais gosta. \n    \n-  Verifique se as operações acima deram certo, ou seja, veja todas as suas listas.\n   \n-  Agora, adicione as suas 2 músicas favoritas de cada gênero em suas respectivas playlists.\n    \n-  Verifique se as operações acima deram certo. Veja todas as suas listas; e, em seguida, veja as músicas em cada uma delas.\n    \n-  Qual é a sua playlist favorita? Pesquise por ela. Logo, em seguida, adicione mais duas músicas.\n    \n-  Verifique se as operações acima deram certo. (Pense: o que você precisa fazer para validar?)\n   \n-  Adicione uma música que você **não** gosta muito em uma das suas playlists. \n\n-  Faça a validação do item acima. (Pense: o que você precisa fazer para validar?)\n    \n-  Agora, delete esta última música; e, em seguida, adicione mais duas músicas nesta playlist.\n\n-  Faça a validação do item acima. (Pense: o que você precisa fazer para validar?)\n\n-  Vamos lá, para finalizar, e verificar se você entendeu os principais conceitos envolvendo a lógica de uma API; você vai realizar um teste geral com a API. Faça o seguinte: \n\n- a. Apague todas as playlists anteriores. Faça a validação deste item.\n\n- b. Crie uma nova playlist. Faça a validação.\n\n- c. Agora, adicione três músicas. Faça a validação.\n\n- d. Apague uma destas músicas. Faça a validação.\n\n- e. Crie duas novas playlists, e coloque uma música em cada uma delas. Faça a validação.\n\n### Desafios\n\n\n\n    Nestes desafios, verificaremos em quais situações a resposta da API é um erro. Faça, nesta ordem, os desafios:\n\n    1. Veja todas as suas playlists. Faça requisições para ver as músicas, ao menos, 2 músicas em cada uma delas (se não houver, crie!).\n    \n    2. Tente criar uma playlist com o nome de alguma que já existe. Preste atenção no código de erro e da mensagem da resposta.\n    \n    3. Busque por alguma playlist, com um nome que com certeza não haverá correspondência.\n    \n    4. Veja as músicas de alguma das playlists. Tente deletar uma música com um id inexistente. Preste atenção no código de erro e da mensagem da resposta.\n    \n    5. Agora, tente procurar por uma playlist com um id inexistente e sem passar nenhum id. Preste atenção no código de erro e da mensagem da resposta.\n    \n    6. Tente criar uma nova playlist sem passar um nome. Preste atenção no código de erro e da mensagem da resposta.\n    \n    7. Agora, apague todas as suas playlists. Faça o seguinte: (a) a requisição que lhe permita ver todas as suas playlists; (b) uma busca utilizando qualquer nome; e (c) a requisição que permite ver as músicas de uma playlist, passando qualquer id. Preste atenção no código de erro e da mensagem da resposta.",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "Primeira vez usando API",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": ""
+				},
+				"description": "- iniciando uma playlist baseada na api Labenu"
+			},
+			"response": []
+		},
+		{
+			"name": "segundo comando",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Authorization",
+						"value": "JaquelineLouise-Figueiredo-Julian",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "\r\n   {\r\n    \"name\": \"louisej\",\r\n    \"email\": \"louisejaq@gmail.com\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users",
+					"protocol": "https",
+					"host": [
+						"us-central1-labenu-apis",
+						"cloudfunctions",
+						"net"
+					],
+					"path": [
+						"labenusers",
+						"users"
+					]
+				},
+				"description": "- Fazer nova pr"
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
