@@ -1,0 +1,19 @@
+body {
+    background-color: rgb(9, 87, 9);
+}
+
+h1 {
+    font-size: 250px;
+}
+
+h3 {
+    font: 2em sans-serif;
+}
+
+.botão {
+    border-radius: 50px;
+    background-color: red;
+    border: red;
+    font-size: 30px;
+    margin-block: 80%;
+}
